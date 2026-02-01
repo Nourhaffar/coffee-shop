@@ -1,0 +1,29 @@
+.review-card {
+    background: rgba(255, 255, 255, 0.05); /* Subtle glass effect */
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    border-color: #fc932a;
+}
+
+.review-card p {
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #e0e0e0;
+}
+
+.review-card span {
+    font-size: 0.9rem;
+    color: #fc932a;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+}
