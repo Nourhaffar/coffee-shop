@@ -23,8 +23,6 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #d67c2d;
 }
-
-/* Firefox */
 html {
     scrollbar-width: thin;
     scrollbar-color: #fc932a #1a1a1a;

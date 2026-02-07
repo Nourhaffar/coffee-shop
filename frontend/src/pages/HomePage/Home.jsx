@@ -20,6 +20,17 @@ const Home = () => {
             </div>
             <img src={luxuryImage} alt="Luxury Bakery" className="hero-image" />
         </section>
+        <section className='products-section' style={{backgroundColor: "#050505ff"}}>
+            <div className='products-header'>
+                <h1>Our Best Product</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
+            <div className='products-list'>
+                <Cart />
+                <Cart />
+                <Cart />
+            </div>
+        </section>
         <section className='products-section'>
             <div className='products-header'>
                 <h1>Our Products</h1>
