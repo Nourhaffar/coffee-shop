@@ -37,10 +37,10 @@ const Home = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
             </div>
             <div className='products-list'>
-                <Cart />
-                <Cart />
-                <Cart />
-                <Cart />
+                <Cart path="/product/1"/>
+                <Cart path="/product/2"/>
+                <Cart path="/product/3"/>
+                <Cart path="/product/4"/>
             </div>
         </section>
         <section className="visit-section">

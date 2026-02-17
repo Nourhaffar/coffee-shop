@@ -1,7 +1,8 @@
 import React from 'react'
 import './Cart.css'
 import productImage from './bakery-510925_1920.jpg'
-const Cart = () => {
+import { Link } from 'react-router-dom'
+const Cart = ({path}) => {
     return (
         <div className="cart-container">
                 <img src={productImage} alt="" className='cart-image' />
@@ -10,7 +11,9 @@ const Cart = () => {
                     <p>Product Description</p>
                     <p>Product Price</p>
                 </div>
-                <button className='cart-btn'>View More</button>
+                <Link to={path}>
+                    <button className='cart-btn'>View More</button>
+                </Link>
         </div>
     )
 }

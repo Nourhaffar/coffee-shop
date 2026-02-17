@@ -10,10 +10,12 @@
     background-color: #161616;
     color: white;
     border-radius: 10px;
+    min-width: 250px;
 }
 .cart-container:hover{
     transform: translateY(-3px);
     transition: transform 0.3s ease;
+
 }
 .cart-container img{
     width: 100%;

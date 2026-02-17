@@ -1,5 +1,6 @@
 import React from 'react'
 import { User } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import './Header.css'
 const Header = () => {
     return (
@@ -13,7 +14,9 @@ const Header = () => {
             <div>
                 {/* links */}
                 <ul>
-                    <li>Home</li>
+                    <li>
+                        <Link to="/" className='link'>Home</Link>
+                    </li>
                     <li>Menu</li>
                     <li>About</li>
                     <li>Contact</li>
